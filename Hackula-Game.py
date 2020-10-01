@@ -1,5 +1,5 @@
 #example if statements
-while = true
+statement = true
 option = int(input("1, 2 or 3"))
 while statement == True:
   if option == 1:
