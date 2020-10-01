@@ -24,3 +24,38 @@ print("1. Speak to the bartender")
 print("2. Speak to the Cyborg Zombies")
 statement = True
 while 
+
+
+// hi it me
+def story_telling():
+    flag = True
+    x = 0
+    while flag == True:
+        choice = (input("please enter 1,2 or 3"))
+        if choice == "1":
+            x += 1
+            flag = False
+        elif choice  == "2":
+            x += 2
+            flag = False
+        elif choice == "3":
+            x += 3
+            flag = False
+        else:
+            flag = True
+    return x
+
+count = story_telling()
+if count ==  1:
+    count = story_telling(A[0]) //ignore this code thing its just me naming each option
+    if count == 1:
+         count = story_telling(A[1])
+    elif count == 2:
+        story_telling(B[0])
+    else:
+        story_telling(C[0])
+elif count == 2:
+    story_telling(B[0])
+else:
+    story_telling(C[0])
+
