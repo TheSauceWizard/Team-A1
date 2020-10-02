@@ -19,12 +19,6 @@ while statement1 == True:
         statement1 = True
 print("As I look around the pub I notice these things: the bartender is standing at the bar by himself,")
 print(" the cyborg zombies have returned to the door, and an man sat in the corner of the room. ")
-print("Would you like to:")
-print("1. Speak to the bartender")
-print("2. Speak to the Cyborg Zombies")
-statement = True
-while 
-
 
 // hi it me
 def story_telling():
