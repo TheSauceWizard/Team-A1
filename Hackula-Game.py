@@ -2,6 +2,7 @@
 back = True
 bartender = False
 play = True
+import time
 
 
 def postsleep():
